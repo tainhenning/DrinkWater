@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Drink Water",
+	"description": "A reminder to get up and get some water.",
+	"version": "1.0.0",
+	"icons": {"128": "iconLarge.png"},
+	"browser_action": {
+		"default_icon": "iconTiny.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab"]
+}
